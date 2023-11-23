@@ -1,0 +1,48 @@
+#ahorcado{
+    height: 318px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-image: url('https://pablomonteserin.com/wp-content/uploads/2020/05/hangman-game_pm-1320x273.png');
+}
+#ganador{
+    color: aquamarine;
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('https://images.ecestaticos.com/iiKgTEWxA58VcPabTFLDY93Q4jg=/0x0:0x0/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F2c7%2Fd91%2Fd43%2F2c7d91d433dfee4b633b697c42581ded.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#perdedor{
+    color: aquamarine;
+    display: none;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url('https://es.e-noticies.cat/filesedc/uploads/image/post/montaje-mickey-mouse-contra-santiago-abascal_1200_800.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    background-image: url('https://www.lamoncloa.gob.es/gobierno/PublishingImages/GobiernoEnero2020/080323-sanchez-biografia3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+    backdrop-filter: blur(2px);
+    }
